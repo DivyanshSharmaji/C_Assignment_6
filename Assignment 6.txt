@@ -16,10 +16,6 @@ Solutions of the Assignment-6 :-
 
 Ans.1 :- #include<stdio.h>
 	   int main(){
-		int a;
-		float f;
-		char ch;
-		double d;
 		printf("The size of int is : %d\nThe size of float is : %d\nThe size of char is : %dThe size of double is : %d\n",sizeof(int),sizeof(float),sizeof(char),sizeof(double));
 		return 0;
 	   }
@@ -95,11 +91,11 @@ Ans.8 :- #include<stdio.h>
 
 Ans.9 :- #include<stdio.h>
 	   int main(){
-		int INR,USD;
+		float INR,USD;
 		printf("Enter the amount in Indian rupees :\n");
-		scanf("%d",&INR);
+		scanf("%f",&INR);
 		USD = INR/76.23;
-		printf("The amount in US dollar is :\n%d",USD);
+		printf("The amount in US dollar is :\n%f",USD);
 		return 0;
 	   }
 
